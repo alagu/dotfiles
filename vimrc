@@ -18,7 +18,7 @@ set sts=4
 syntax on
 set path=\"c:\program\ files\"
 au GUIEnter * simalt ~x
-colorscheme murphy
+colorscheme pablo
 
 " Enable for spell check
 " setlocal spell spelllang=en_us
@@ -38,10 +38,9 @@ map <C-]>:tab split<CR>gT:q<CR>gt
 map <C-tab> :tabp<CR>
 
 " the backup extension
-set bex=.bak
 
 " the backup directories
-set backupdir=$VIM/TMP,.,~/
+set nobackup
 
 " display incomplete commands
 set showcmd
